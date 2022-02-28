@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+/*---------------------------------------------*/
+
+.colum {
+    float: left;
+    width: 100%;
+    padding: 10px;
+    height: 130px; /* Should be removed. Only for demonstration */
+    background-color: #FFA500;
+}
+
+.nav-bar a img {
+    width: 210px;
+    margin-left: 15px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+/*---------------table------------------------------------*/
+
+.view_items{
+    flex-basis: 27%;
+    text-align: center;
+    margin-left: 6rem;
+    padding-top: 7rem;
+    display: flex;
+    align-items:center;
+    justify-content : space-between;
+    padding: 12px;
+    box-sizing: border-box;
+}
+
+
+
+table {
+    border-collapse: collapse;
+    width: 80%;
+    margin-top: 95px;
+    margin-bottom: 30px;
+
+}
+
+th, td {
+    font-size: 18px;
+    padding: 16px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.view_items a{
+    text-decoration: none;
+}
+
+/*----------------footer--------------------------------*/
+
+.b-footer {
+    text-align: center;
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 213px;
+    background-color: #1B1169;
+}
+
+.b-footer p{
+    padding-top: 6rem;
+    
+}
